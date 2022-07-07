@@ -1,0 +1,66 @@
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+*,
+input,
+textarea,
+select,
+button {
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.control {
+  padding: 0.5rem;
+}
+
+.control label,
+.control input {
+  display: block;
+  width: 100%;
+}
+
+.control label {
+  margin-bottom: 0.3rem;
+}
+
+.control input {
+  padding: 0.5rem;
+}
+
+.control button {
+  width: 100%;
+  padding: 0.7rem 0.4rem;
+  outline: none;
+  border: none;
+  background-color: #007e00;
+  color: #fff;
+  cursor: pointer;
+  transition: ease-in 0.3s;
+}
+
+.control button:hover,
+.control button:active,
+.control button:focus {
+  background-color: #005300;
+  transition: ease-in 0.3s;
+}
+
+main #wordCount {
+  padding: 0.5rem;
+}
